@@ -1,5 +1,5 @@
 {
-  "name": "teg-ng-regexp-utils",
+  "name": "teg-ng-text-utils",
   "version": "0.0.1",
   "devDependencies": {
     "gulp": "~3.5.2",

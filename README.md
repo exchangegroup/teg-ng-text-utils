@@ -1,6 +1,6 @@
 # Overview
 
-Collection of regular expressions utilility functions.
+Collection of utilility functions to work with text.
 
 ## Install
 
@@ -12,20 +12,18 @@ Include the JS script:
 
 Add module to your app's dependencies:
 
-    angular.module('YourApp', ['TegNgRegexpUtils'])
+    angular.module('YourApp', ['TegNgTextUtils'])
 
 ## Usage
 
-    tegNgRegexpUtils.escape('some text')
+    var escaped = tegNgTextUtils.escapeRegexp('some text');
 
 ## Functions
 
-  * **escape(text)**: Escapes the text so it can be passed to JavaScript regular expression object, like `new RegExp(escaped_text)`
+  * **escapeRegexp(text)**: Escapes the text so it can be passed to JavaScript regular expression object, like `new RegExp(escaped_text)`
 
 
 ## Development
-
-Setup:
 
 After cloning the github repo into a dir:
 

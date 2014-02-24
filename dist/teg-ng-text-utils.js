@@ -1,6 +1,6 @@
 (function() {
   "use strict";
-  angular.module('TegNgRegexpUtils', []).factory('tegNgRegexpUtils', function() {
+  angular.module('TegNgTextUtils', []).factory('tegNgTextUtils', function() {
     return {
       escape: function(text) {
         return text.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
