@@ -1,14 +1,49 @@
 # Overview
 
-Highlights a subsctring in a HTML text.
+Collection of regular expressions utilility functions.
+
+## Install
+
+    bower install <path to github repo>
+
+Include the JS script:
+
+    <script src="/bower_components/file-name.js"></script>
+
+Add module to your app's dependencies:
+
+    angular.module('YourApp', ['TegNgRegexpUtils'])
+
+## Usage
+
+    tegNgRegexpUtils.escape('some text')
+
+## Functions
+
+  * **escape(text)**: Escapes the text so it can be passed to JavaScript regular expression object, like `new RegExp(escaped_text)`
 
 
-# Usage
+## Development
 
-    tegSelectSubstring.select('My penguin is happy!', 'Penguin')
+Setup:
 
-will produce:
+After cloning the github repo into a dir:
 
-    My <span class='SelectedSubstring'>penguin</span> is happy!
+    npm install
+    bower install
+
+Test:
+
+    gulp test
+
+Build:
+
+    gulp
+
+Finally, bump bower version number:
+
+    git tag v0.1.[patch number]
+    git push origin v0.1.[patch number]
+
 
 
