@@ -22,6 +22,7 @@ Add module to your app's dependencies:
 
   * **escapeRegexp(text)**: Escapes the text so it can be passed to JavaScript regular expression object, like `new RegExp(escaped_text)`
 
+  * **escapeHtml(text)**: Escapes special characters in HTML: < > & " '
 
 ## Development
 
