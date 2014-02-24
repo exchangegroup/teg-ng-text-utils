@@ -8,7 +8,7 @@ Collection of regular expressions utilility functions.
 
 Include the JS script:
 
-    <script src="/bower_components/file-name.js"></script>
+    <script src="/bower_components/<path to file name>.js"></script>
 
 Add module to your app's dependencies:
 
