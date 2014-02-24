@@ -1,0 +1,20 @@
+{
+  "name": "teg-ng-regexp-utils",
+  "main": "teg-ng-regexp-utils.min.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "1.2.13",
+    "angular-mocks": "1.2.13"
+  },
+  "ignore": [
+    ".*",
+    "app",
+    "test",
+    "src",
+    "karma*",
+    "package.json",
+    "Gruntfile.js"
+  ],
+  "private": true
+}
