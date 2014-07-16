@@ -16,6 +16,12 @@
           replace(/>/g, "&gt;").
           replace(/"/g, "&quot;").
           replace(/'/g, "&#039;");
+      },
+
+      // Check if text is present and it is not empty.
+      // Text containing blanks is considered empty.
+      textPresent: function(text) {
+        return (typeof text === 'string') && text.trim() !== '';
       }
     };
   });

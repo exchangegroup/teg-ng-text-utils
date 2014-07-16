@@ -10,6 +10,11 @@ Include the JS script:
 
     <script src="/bower_components/<path to file name>.js"></script>
 
+If you need to support browsers that do not understand ECMAScript 5 (like IE8) please also include:
+
+    bower install es5-shim
+    <script src="/bower_components/es5-shim/es5-shim.min.js"></script>
+
 Add module to your app's dependencies:
 
     angular.module('YourApp', ['TegNgTextUtils'])
@@ -23,6 +28,8 @@ Add module to your app's dependencies:
   * **escapeRegexp(text)**: Escapes the text so it can be passed to JavaScript regular expression object, like `new RegExp(escaped_text)`
 
   * **escapeHtml(text)**: Escapes special characters in HTML: < > & " '
+
+  * **textPresent(text)**: Checks if text is present. A string containing only blanks is considered blank.
 
 ## Development
 
