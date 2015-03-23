@@ -1,6 +1,6 @@
 {
   "name": "teg-ng-text-utils",
-  "main": "teg-ng-text-utils.min.js",
+  "main": "dist/teg-ng-text-utils.min.js",
   "dependencies": {
   },
   "devDependencies": {
