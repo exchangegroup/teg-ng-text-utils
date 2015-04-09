@@ -1,6 +1,7 @@
 {
   "name": "teg-ng-text-utils",
   "version": "0.0.1",
+  "main": "dist/teg-ng-text-utils",
   "devDependencies": {
     "gulp": "~3.5.2",
     "gulp-uglify": "~0.2.1",
